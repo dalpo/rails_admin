@@ -114,8 +114,9 @@ body.rails_admin {
 
     /* nested forms */
     .tab-content {
+      @include clearfix;
+
       .tab-pane {
-        @include clearfix;
         border-left: 5px solid #049cdb;
         position: relative;
 
